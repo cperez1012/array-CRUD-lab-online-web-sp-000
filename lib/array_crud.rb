@@ -3,16 +3,14 @@ def create_an_empty_array
 end
 
 def create_an_array
-  popeyes_chicken_order = ["thigh", "breast", "wing", "drum"]
+  array = ["thigh", "breast", "wing", "drum"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["wow", "I", "am", "really", "learning"]
+  array = ["thigh", "breast", "wing", "drum"]
   array << "arrays!"
-  puts  array.inspect
 end
-array == ["I", "am", "really", "learning"]
-element == "wow"
+
 def add_element_to_start_of_array(array, element)
     array.unshift("wow")
     puts array.inspect
